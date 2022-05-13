@@ -43,4 +43,7 @@ module.exports = [
     prefix: 'favicons/',
     cache: true,
   }),
+  // new CopyPlugin({
+  //   patterns: [{ from: path.resolve(__dirname, '../public/locales'), to: 'locales' }],
+  // }),
 ];

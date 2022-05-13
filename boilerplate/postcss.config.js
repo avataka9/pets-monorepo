@@ -5,8 +5,9 @@ module.exports = () => {
       // from up to bottom direction
       'postcss-normalize': {},
       'postcss-import': {},
+      'postcss-at-rules-variables': {},
+      'postcss-custom-properties': {},
       'postcss-simple-vars': {},
-      'postcss-css-variables': {},
       'postcss-mixins': {},
       precss: {},
     },

@@ -93,7 +93,7 @@ module.exports = {
     '@typescript-eslint/no-unsafe-assignment': 0,
     '@typescript-eslint/no-unsafe-member-access': 0,
     '@typescript-eslint/no-unsafe-call': 0,
-    '@typescript-eslint/no-explicit-any': 1, // позднее заменить на 0
+    '@typescript-eslint/no-explicit-any': 1,
     '@typescript-eslint/no-unsafe-return': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
     'no-underscore-dangle': 0,

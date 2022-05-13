@@ -30,6 +30,14 @@ module.exports = merge(
       //     changeOrigin: true,
       //   },
       // },
+      // временная раздача самому себе файлов статики в дев режиме
+      // setupMiddlewares: (middlewares, devServer) => {
+      //   if (!devServer) {
+      //     throw new Error('webpack-dev-server is not defined');
+      //   }
+      //   devServer.app.use('/locales', express.static(path.resolve(__dirname, '../public/locales')));
+      //   return middlewares;
+      // },
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
