@@ -1,6 +1,6 @@
 module.exports = () => {
   const config = {
-    parser: 'postcss-safe-parser',
+    parser: 'postcss-scss',
     plugins: {
       // from up to bottom direction
       'postcss-normalize': {},
